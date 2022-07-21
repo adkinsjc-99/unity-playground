@@ -21,7 +21,6 @@ public class CameraController : MonoBehaviour
     {
         ahead = new GameObject("ahead");
         _renderer = trackedObject.gameObject.GetComponent<MeshRenderer>();
-        
     }
 
     // LateUpdate is called after all Updates finish
